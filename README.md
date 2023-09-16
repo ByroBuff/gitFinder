@@ -1,7 +1,7 @@
 # gitFinder
 Find a github user's email from their username
 
-## Steps
+## Installation
 ```
  - git clone https://github.com/ByroBuff/gitFinder
  - cd gitFinder
