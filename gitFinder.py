@@ -131,7 +131,7 @@ def main():
             
             # Rest of your code remains the same
             if num_found_emails == 0 and not hidden:
-                print(YELLOW + "Use --hidden to show any hidden emails (@users.noreply.github.com emails)\n" + RESET)
+                print(YELLOW + "Use --masked/-m to show any hidden emails (@users.noreply.github.com emails)\n" + RESET)
                 exit(0)
 
             for email, sources in email_sources.items():
